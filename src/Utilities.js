@@ -1,36 +1,40 @@
-const API_LOGIN = "http://localhost:3001/users/login";
-const API_REGISTER = "http://localhost:3001/users/register";
-const API_FORGOT_PASSWORD = "http://localhost:3001/users/forgot-password";
-const API_AUTH = "http://localhost:3001/users/check-auth";
-const API_EVENTS = "http://localhost:3001/events";
-const API_CUSTOMERS = "http://localhost:3001/customers";
-const API_DAY_PLANNER = "http://localhost:3001/day-planner";
-const API_PERSONAL_DIARY = "http://localhost:3001/personal-diary";
-const API_INFO = "http://localhost:3001/info";
-const API_CONTACTS = "http://localhost:3001/customers";
-const API_PRODUCTS = "http://localhost:3001/products";
-const API_INVOICES = "http://localhost:3001/invoices";
-const API_ORDERS = "http://localhost:3001/orders";
-const BASE_URL = "http://localhost:3001";
+// const API_LOGIN = "http://localhost:3001/users/login";
+// const API_REGISTER = "http://localhost:3001/users/register";
+// const API_FORGOT_PASSWORD = "http://localhost:3001/users/forgot-password";
+// const API_AUTH = "http://localhost:3001/users/check-auth";
+// const API_EVENTS = "http://localhost:3001/events";
+// const API_CUSTOMERS = "http://localhost:3001/customers";
+// const API_DAY_PLANNER = "http://localhost:3001/day-planner";
+// const API_PERSONAL_DIARY = "http://localhost:3001/personal-diary";
+// const API_INFO = "http://localhost:3001/info";
+// const API_CONTACTS = "http://localhost:3001/customers";
+// const API_PRODUCTS = "http://localhost:3001/products";
+// const API_INVOICES = "http://localhost:3001/invoices";
+// const API_ORDERS = "http://localhost:3001/orders";
+// const BASE_URL = "http://localhost:3001";
 
-const SITE_URL = "http://localhost:3000";
+// const SITE_URL = "http://localhost:3000";
 
-// const API_LOGIN='https://ecom-app-backend.herokuapp.com/users/login';
-// const API_REGISTER='https://ecom-app-backend.herokuapp.com/users/register';
-// const API_FORGOT_PASSWORD='https://ecom-app-backend.herokuapp.com/users/forgot-password';
-// const API_AUTH='https://ecom-app-backend.herokuapp.com/users/check-auth';
-// const API_EVENTS='https://ecom-app-backend.herokuapp.com/events';
-// const API_CUSTOMERS='https://ecom-app-backend.herokuapp.com/customers';
-// const API_DAY_PLANNER='https://ecom-app-backend.herokuapp.com/day-planner';
-// const API_PERSONAL_DIARY='https://ecom-app-backend.herokuapp.com/personal-diary';
-// const API_INFO='https://ecom-app-backend.herokuapp.com/info';
-// const API_CONTACTS='https://ecom-app-backend.herokuapp.com/customers';
-// const API_PRODUCTS='https://ecom-app-backend.herokuapp.com/products';
-// const API_INVOICES='https://ecom-app-backend.herokuapp.com/invoices';
-// const API_ORDERS='https://ecom-app-backend.herokuapp.com/orders';
-// const BASE_URL='https://ecom-app-backend.herokuapp.com';
+const API_LOGIN = "https://surjith-ecommerce-app.herokuapp.com/users/login";
+const API_REGISTER =
+  "https://surjith-ecommerce-app.herokuapp.com/users/register";
+const API_FORGOT_PASSWORD =
+  "https://surjith-ecommerce-app.herokuapp.com/users/forgot-password";
+const API_AUTH = "https://surjith-ecommerce-app.herokuapp.com/users/check-auth";
+const API_EVENTS = "https://surjith-ecommerce-app.herokuapp.com/events";
+const API_CUSTOMERS = "https://surjith-ecommerce-app.herokuapp.com/customers";
+const API_DAY_PLANNER =
+  "https://surjith-ecommerce-app.herokuapp.com/day-planner";
+const API_PERSONAL_DIARY =
+  "https://surjith-ecommerce-app.herokuapp.com/personal-diary";
+const API_INFO = "https://surjith-ecommerce-app.herokuapp.com/info";
+const API_CONTACTS = "https://surjith-ecommerce-app.herokuapp.com/customers";
+const API_PRODUCTS = "https://surjith-ecommerce-app.herokuapp.com/products";
+const API_INVOICES = "https://surjith-ecommerce-app.herokuapp.com/invoices";
+const API_ORDERS = "https://surjith-ecommerce-app.herokuapp.com/orders";
+const BASE_URL = "https://surjith-ecommerce-app.herokuapp.com";
 
-// const SITE_URL='https://ecom-app-backend.herokuapp.com';
+const SITE_URL = "https://surjith-ecommerce-app.herokuapp.com";
 
 const convertTimeTo12H = (time) => {
   const tempTime = parseTime(time);
