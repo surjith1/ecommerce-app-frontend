@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.loading-btn {
+  background-color: white;
+}
+
+.loading-btn:hover {
+  background-color: #ac420d;
+}
