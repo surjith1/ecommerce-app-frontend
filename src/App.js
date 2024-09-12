@@ -27,6 +27,7 @@ function App(){
   return(
     <BrowserRouter>
     <p>Hello 1</p>
+    <p>Hello 2</p>
       <Switch>
         <Route exact path='/' component={Home}></Route>
         <Route exact path='/register' component={Register}></Route>
